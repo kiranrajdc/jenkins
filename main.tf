@@ -14,6 +14,6 @@ provider "aws" {
 
 resource "aws_instance" "EC2FROMTF" {
   #name="EC2FROMTF"
-  ami = "ami-0bde1eb2c18cb2abe"
+  ami = "ami-0149b2da6ceec4bb0"
   instance_type = "t2.micro"
 }
