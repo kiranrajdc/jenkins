@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello world" > kiran.txt
+echo "This is for testing shell script" > kiran.txt
