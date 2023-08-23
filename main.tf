@@ -17,3 +17,8 @@ resource "aws_instance" "EC2FROMTF" {
   ami = "ami-0149b2da6ceec4bb0"
   instance_type = "t2.micro"
 }
+resource "aws_instance" "EC2FROMTF2" {
+  #name="EC2FROMTF"
+  ami = "ami-0149b2da6ceec4bb0"
+  instance_type = "t2.micro"
+}
